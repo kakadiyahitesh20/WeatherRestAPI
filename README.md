@@ -10,11 +10,11 @@ Besides the requirement to use node.js, you are free to use any library or tool 
 <li>Hapi JS</li>
 
 # Features/Services
-<li>GET /cities/{latitude}/{longitude}` List the available cities around the specified latitude/longitude within a radius of 10 kilometers</li>
+<li>GET /cities/{latitude}/{longitude} List the available cities around the specified latitude/longitude within a radius of 10 kilometers</li>
 <li>GET /cityInfo/{city_id} Retrieve the details for a city by cityId</li>
 <li>GET /cityWeather/{city_id} Retrieve the weather data for a city by cityId</li>
 
-#Useful Tools
+# Useful Tools
 <li><a href="https://www.jetbrains.com/webstorm/"  target="_blank">jetbrains webstorm</a> : JavaScript IDE</li>
 
 # Getting Started Locally
@@ -28,13 +28,13 @@ Your app should now be running on http://localhost:3000/documentation.
 
 Make sure you have Docker installed.
 
-#Build Image
+# Build Image
 $ docker build -t weatherapi
 
-#Run Image
+# Run Image
 $ docker run -p 3000:3000 -d /WeatherRestAPI
 
-#The following libraries and tools could be helpful to implement the service:
+# The following libraries and tools could be helpful to implement the service:
 <li>Restify (http://restify.com/) ­ as the baseline to implement the REST web service</li>
 <li>Request (https://github.com/request/request) ­ to make requests to the http://openweathermap.org/ API</li>
 <li>Postman (https://www.getpostman.com/) or curl to test the service</li>
